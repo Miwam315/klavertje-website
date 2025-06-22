@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klavertje</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #e6f5e6;
+      color: #2d4a2f;
+    }
+    header {
+      background-color: #81c784;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #66bb6a;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #81c784;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Klavertje 🍀</h1>
+    <p>Restaurant in de natuur, met een boomhut!</p>
+  </header>
+  
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#over">Over ons</a>
+    <a href="#menu">Menu</a>
+    <a href="#reserveren">Reserveren</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welkom bij Klavertje</h2>
+    <p>Geniet van heerlijk eten in onze unieke boomhut, midden in het groen.</p>
+  </section>
+
+  <section id="over">
+    <h2>Over ons</h2>
+    <p>Klavertje is een gezellig restaurant gebouwd rondom een grote boomhut. We houden van natuur, duurzaamheid en lekker eten. De perfecte plek om te ontspannen met familie of vrienden.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Ons Menu</h2>
+    <p>Hier komt binnenkort een overzicht van onze heerlijke gerechten.</p>
+  </section>
+
+  <section id="reserveren">
+    <h2>Reserveren</h2>
+    <p>Bel ons of stuur een e-mail om een tafel te reserveren. Online reserveren komt binnenkort!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: info@klavertje.nl<br>
+    Adres: Boomlaan 4, 1234 AB Natuurdorp<br>
+    Telefoon: 012-3456789</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Klavertje 🍀 – Alle rechten voorbehouden</p>
+  </footer>
+</body>
+</html>
